@@ -3,7 +3,10 @@ Udemy C++ tutorial course
 
 ## Getting started
 
-[Hello World](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/tree/master/GettingStarted/HelloWorld)<br />
-[Outputting Text](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/tree/master/GettingStarted/OutputtingText)
+[Hello World](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/GettingStarted/HelloWorld/HelloWorld.cpp)<br />
+[Outputting Text](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/GettingStarted/OutputtingText/OutputtingText.cpp)
 
 ## Basic Syntax
+
+[Variables](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Variables/Variables.cpp)<br />
+[Strings](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Strings/Strings.cpp)<br />
