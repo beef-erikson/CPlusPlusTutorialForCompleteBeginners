@@ -1,0 +1,6 @@
+﻿  HelloWorld.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  HelloWorld.vcxproj -> C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\GettingStarted\x64\Release\HelloWorld.exe
