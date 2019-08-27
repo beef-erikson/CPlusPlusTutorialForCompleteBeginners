@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicSyntax.cpp">
+    <ClCompile Include="Variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
