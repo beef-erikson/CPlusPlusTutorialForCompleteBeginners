@@ -26,3 +26,4 @@ Udemy C++ tutorial course
 [Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/MultidirectionalArrays/MultidirectionalArrays.cpp)<br />
 [Sizeof and Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOf/SizeOf.cpp)<br />
 [Sizeof Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOfMultidimensionalArrays/SizeOfMultidimensionalArrays.cpp)<br />
+[Switch](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Switch/Switch.cpp)<br />
