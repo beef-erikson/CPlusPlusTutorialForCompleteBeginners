@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComparingFloats", "Comparin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComplexConditions", "ComplexConditions\ComplexConditions.vcxproj", "{491E3FA5-669D-48C3-B0A8-F2E84B3E7DB9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "While", "While\While.vcxproj", "{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{491E3FA5-669D-48C3-B0A8-F2E84B3E7DB9}.Release|x64.Build.0 = Release|x64
 		{491E3FA5-669D-48C3-B0A8-F2E84B3E7DB9}.Release|x86.ActiveCfg = Release|Win32
 		{491E3FA5-669D-48C3-B0A8-F2E84B3E7DB9}.Release|x86.Build.0 = Release|Win32
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Debug|x64.ActiveCfg = Debug|x64
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Debug|x64.Build.0 = Debug|x64
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Debug|x86.Build.0 = Debug|Win32
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Release|x64.ActiveCfg = Release|x64
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Release|x64.Build.0 = Release|x64
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Release|x86.ActiveCfg = Release|Win32
+		{ECB4C2F6-11E6-45EA-92D9-850105BAD26E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
