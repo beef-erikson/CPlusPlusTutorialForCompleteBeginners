@@ -1,0 +1,3 @@
+﻿  ComparingFloats.cpp
+C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\ComparingFloats\ComparingFloats.cpp(8,20): warning C4305:  'initializing': truncation from 'double' to 'float'
+  ComparingFloats.vcxproj -> C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\Debug\ComparingFloats.exe
