@@ -20,3 +20,4 @@ Udemy C++ tutorial course
 [Complex Conditions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/ComplexConditions/ComplexConditions.cpp)<br />
 [While](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/While/While.cpp)<br />
 [Do/While](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/DoWhile/DoWhile.cpp)<br />
+[For](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/For/For.cpp)<br />
