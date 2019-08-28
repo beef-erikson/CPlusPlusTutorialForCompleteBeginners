@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerTypes", "IntegerType
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatingPointTypes", "FloatingPointTypes\FloatingPointTypes.vcxproj", "{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OtherTypes", "OtherTypes\OtherTypes.vcxproj", "{7FA1286A-E04A-474D-884F-A62CBEC85A53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x64.Build.0 = Release|x64
 		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x86.ActiveCfg = Release|Win32
 		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x86.Build.0 = Release|Win32
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Debug|x64.ActiveCfg = Debug|x64
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Debug|x64.Build.0 = Debug|x64
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Debug|x86.Build.0 = Debug|Win32
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x64.ActiveCfg = Release|x64
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x64.Build.0 = Release|x64
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x86.ActiveCfg = Release|Win32
+		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

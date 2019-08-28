@@ -1,0 +1,3 @@
+﻿  FloatingPointTypes.cpp
+C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\FloatingPointTypes\FloatingPointTypes.cpp(8,27): warning C4305:  'initializing': truncation from 'double' to 'float'
+  FloatingPointTypes.vcxproj -> C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\Debug\FloatingPointTypes.exe
