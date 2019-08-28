@@ -10,3 +10,4 @@ Udemy C++ tutorial course
 
 [Variables](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Variables/Variables.cpp)<br />
 [Strings](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Strings/Strings.cpp)<br />
+[Input](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Input/Input.cpp)<br />
