@@ -24,3 +24,4 @@ Udemy C++ tutorial course
 [Break/Continue](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/BreakContinue/BreakContinue.cpp)<br />
 [Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Arrays/Arrays.cpp)<br />
 [Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/MultidirectionalArrays/MultidirectionalArrays.cpp)<br />
+[Sizeof and Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOf/SizeOf.cpp)<br />
