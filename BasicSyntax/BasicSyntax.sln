@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatingPointTypes", "Float
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OtherTypes", "OtherTypes\OtherTypes.vcxproj", "{7FA1286A-E04A-474D-884F-A62CBEC85A53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "If", "If\If.vcxproj", "{DD209107-A259-4EC0-80E8-94C3AAE0B323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x64.Build.0 = Release|x64
 		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x86.ActiveCfg = Release|Win32
 		{7FA1286A-E04A-474D-884F-A62CBEC85A53}.Release|x86.Build.0 = Release|Win32
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Debug|x64.ActiveCfg = Debug|x64
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Debug|x64.Build.0 = Debug|x64
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Debug|x86.Build.0 = Debug|Win32
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Release|x64.ActiveCfg = Release|x64
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Release|x64.Build.0 = Release|x64
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Release|x86.ActiveCfg = Release|Win32
+		{DD209107-A259-4EC0-80E8-94C3AAE0B323}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
