@@ -18,3 +18,4 @@ Udemy C++ tutorial course
 [If/Else](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/IfElse/IfElse.cpp)<br />
 [Comparing Floats](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/ComparingFloats/ComparingFloats.cpp)<br />
 [Complex Conditions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/ComplexConditions/ComplexConditions.cpp)<br />
+[While](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/While/While.cpp)<br />
