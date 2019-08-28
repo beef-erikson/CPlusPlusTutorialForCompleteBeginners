@@ -23,3 +23,4 @@ Udemy C++ tutorial course
 [For](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/For/For.cpp)<br />
 [Break/Continue](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/BreakContinue/BreakContinue.cpp)<br />
 [Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Arrays/Arrays.cpp)<br />
+[Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/MultidirectionalArrays/MultidirectionalArrays.cpp)<br />
