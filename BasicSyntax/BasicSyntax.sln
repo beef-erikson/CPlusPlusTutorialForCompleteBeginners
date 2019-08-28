@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Input", "Input\Input.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerTypes", "IntegerTypes\IntegerTypes.vcxproj", "{ABC51575-020D-4492-8E84-17282A022DFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatingPointTypes", "FloatingPointTypes\FloatingPointTypes.vcxproj", "{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{ABC51575-020D-4492-8E84-17282A022DFF}.Release|x64.Build.0 = Release|x64
 		{ABC51575-020D-4492-8E84-17282A022DFF}.Release|x86.ActiveCfg = Release|Win32
 		{ABC51575-020D-4492-8E84-17282A022DFF}.Release|x86.Build.0 = Release|Win32
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Debug|x64.ActiveCfg = Debug|x64
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Debug|x64.Build.0 = Debug|x64
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Debug|x86.Build.0 = Debug|Win32
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x64.ActiveCfg = Release|x64
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x64.Build.0 = Release|x64
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x86.ActiveCfg = Release|Win32
+		{EF0AEFAA-FB53-4E97-A5FF-27480F0B4938}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

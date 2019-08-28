@@ -1,2 +1,6 @@
 ﻿  IntegerTypes.cpp
+C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\IntegerTypes\IntegerTypes.cpp(15,34): warning C4305:  'initializing': truncation from '__int64' to 'int'
+C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\IntegerTypes\IntegerTypes.cpp(15,17): warning C4309:  'initializing': truncation of constant value
+C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\IntegerTypes\IntegerTypes.cpp(18,29): warning C4305:  'initializing': truncation from '__int64' to 'long'
+C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\IntegerTypes\IntegerTypes.cpp(18,16): warning C4309:  'initializing': truncation of constant value
   IntegerTypes.vcxproj -> C:\Users\Beef Erikson Studios\source\repos\C++\CPlusPlusTutorialForCompleteBeginners\BasicSyntax\Debug\IntegerTypes.exe
