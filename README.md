@@ -12,4 +12,5 @@ Udemy C++ tutorial course
 [Strings](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Strings/Strings.cpp)<br />
 [Input](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Input/Input.cpp)<br />
 [Integer Types](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/IntegerTypes/IntegerTypes.cpp)<br />
-[Floating Point Types](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/FloatingPointTypes/FloatingPointTypes.cpp)
+[Floating Point Types](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/FloatingPointTypes/FloatingPointTypes.cpp)<br />
+[Other Types](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/OtherTypes/OtherTypes.cpp)<br />
