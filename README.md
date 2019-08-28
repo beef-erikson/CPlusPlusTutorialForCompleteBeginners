@@ -16,3 +16,4 @@ Udemy C++ tutorial course
 [Other Types](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/OtherTypes/OtherTypes.cpp)<br />
 [If](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/If/If.cpp)<br />
 [If/Else](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/IfElse/IfElse.cpp)<br />
+[Comparing Floats](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/ComparingFloats/ComparingFloats.cpp)<br />
