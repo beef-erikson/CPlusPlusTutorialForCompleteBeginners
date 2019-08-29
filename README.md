@@ -2,12 +2,10 @@
 Udemy C++ tutorial course
 
 ## Getting started
-
 [Hello World](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/GettingStarted/HelloWorld/HelloWorld.cpp)<br />
 [Outputting Text](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/GettingStarted/OutputtingText/OutputtingText.cpp)
 
 ## Basic Syntax
-
 [Variables](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Variables/Variables.cpp)<br />
 [Strings](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Strings/Strings.cpp)<br />
 [Input](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Input/Input.cpp)<br />
@@ -29,10 +27,8 @@ Udemy C++ tutorial course
 [Switch](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Switch/Switch.cpp)<br />
 
 ## Subroutines
-
 [Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Subroutines/Functions/Functions.cpp)<br />
 [Prototypes and Includes](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Subroutines/PrototypesAndIncludes/PrototypesAndIncludes.cpp)<br />
 
 ## Object Orientated Coding
-
 [Classes](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/Classes/Classes.cpp)<br />
