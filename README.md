@@ -27,3 +27,7 @@ Udemy C++ tutorial course
 [Sizeof and Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOf/SizeOf.cpp)<br />
 [Sizeof Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOfMultidimensionalArrays/SizeOfMultidimensionalArrays.cpp)<br />
 [Switch](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Switch/Switch.cpp)<br />
+
+## Subroutines
+
+[Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Subroutines/Functions/Functions.cpp)<br />
