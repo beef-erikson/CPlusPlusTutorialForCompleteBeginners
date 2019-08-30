@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{7517E3A4-1E94-4106-B314-4AA25DB9DC3C}</ProjectGuid>
+    <ProjectGuid>{757C0D63-2B4B-4421-A80B-2DE4E5D744E4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DataMembers</RootNamespace>
+    <RootNamespace>ConstructorsAndDestructors</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="DataMembers.cpp" />
+    <ClCompile Include="ConstructorsAndDestructors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cat.h" />
