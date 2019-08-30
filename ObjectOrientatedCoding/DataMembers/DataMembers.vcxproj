@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{604B92E6-991F-4855-8DDD-8EDD849E059E}</ProjectGuid>
+    <ProjectGuid>{7517E3A4-1E94-4106-B314-4AA25DB9DC3C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Classes</RootNamespace>
+    <RootNamespace>DataMembers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,11 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="Classes.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Cat.h" />
+    <ClCompile Include="DataMembers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
