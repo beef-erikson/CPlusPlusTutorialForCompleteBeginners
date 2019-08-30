@@ -6,5 +6,7 @@ private:
 
 public:
 	void speak();
+	Cat();
+	~Cat();
 };
 
