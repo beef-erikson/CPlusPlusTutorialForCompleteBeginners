@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{2F30496C-4F13-4A7F-A10B-A0547D498BE1}</ProjectGuid>
+    <ProjectGuid>{97FCAAE1-FA93-4496-9A6C-9A10C6B04F71}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>GettersAndSetters</RootNamespace>
+    <RootNamespace>StringStreams</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,11 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GettersAndSetters.cpp" />
-    <ClCompile Include="Person.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Person.h" />
+    <ClCompile Include="StringStreams.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
