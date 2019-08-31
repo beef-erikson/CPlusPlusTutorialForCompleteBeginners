@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{9B455415-5E8F-4BB4-987D-1B586DE30766}</ProjectGuid>
+    <ProjectGuid>{D432666E-A4A9-47F3-9839-7081B7387254}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>OverloadingConstructors</RootNamespace>
+    <RootNamespace>This</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,11 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OverloadingConstructors.cpp" />
-    <ClCompile Include="Person.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Person.h" />
+    <ClCompile Include="This.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
