@@ -10,7 +10,7 @@ private:
 	int age;
 
 public:
-	// Constructor - note we can put initialization lists here in the header as well
+	// Constructor - note that initialization lists can be put here in the header as well
 	Person() : name(""), age(0) {}
 	Person(string name, int age);
 
