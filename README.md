@@ -42,3 +42,4 @@
 ## Pointers and Memory
 [Pointers](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Pointers/Pointers.cpp)<br />
 [Arithmetic](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Arithmetic/Arithmetic.cpp)<br />
+[Pointers and Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/PointersAndArrays/PointersAndArrays.cpp)<br />
