@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{507AB611-B954-4E21-816A-6B3172B90CEF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arithmetic", "Arithmetic\Arithmetic.vcxproj", "{3FBA313C-D756-45DA-B093-BC8063897875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{507AB611-B954-4E21-816A-6B3172B90CEF}.Release|x64.Build.0 = Release|x64
 		{507AB611-B954-4E21-816A-6B3172B90CEF}.Release|x86.ActiveCfg = Release|Win32
 		{507AB611-B954-4E21-816A-6B3172B90CEF}.Release|x86.Build.0 = Release|Win32
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Debug|x64.ActiveCfg = Debug|x64
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Debug|x64.Build.0 = Debug|x64
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Debug|x86.Build.0 = Debug|Win32
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Release|x64.ActiveCfg = Release|x64
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Release|x64.Build.0 = Release|x64
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Release|x86.ActiveCfg = Release|Win32
+		{3FBA313C-D756-45DA-B093-BC8063897875}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
