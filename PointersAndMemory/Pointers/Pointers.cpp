@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void manipulate(double *pValue)
+void manipulate(double* pValue)
 {
 	cout << "2. Value of double in manipulate: " << *pValue << endl;
 	*pValue = 10.0;
@@ -14,7 +14,7 @@ void manipulate(double *pValue)
 int main()
 {
 	int nValue = 8;
-	int *pValue = &nValue;
+	int* pValue = &nValue;
 	*pValue = 6;
 
 	cout << "Int value: " << nValue << endl;
@@ -28,6 +28,6 @@ int main()
 	manipulate(&dValue);
 	cout << "4. dValue: " << dValue << endl;
 
-	
+
 	return 0;
 }

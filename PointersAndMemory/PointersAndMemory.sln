@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arithmetic", "Arithmetic\Ar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointersAndArrays", "PointersAndArrays\PointersAndArrays.vcxproj", "{BE61FEE8-1667-4E47-920D-CFE4870A5211}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointerArithmetic", "PointerArithmetic\PointerArithmetic.vcxproj", "{8508FF41-4E7A-4045-8848-291D6F1A5A96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharArrays", "CharArrays\CharArrays.vcxproj", "{DA5C97BC-9E7D-4402-912E-33E2C278F91B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{BE61FEE8-1667-4E47-920D-CFE4870A5211}.Release|x64.Build.0 = Release|x64
 		{BE61FEE8-1667-4E47-920D-CFE4870A5211}.Release|x86.ActiveCfg = Release|Win32
 		{BE61FEE8-1667-4E47-920D-CFE4870A5211}.Release|x86.Build.0 = Release|Win32
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Debug|x64.ActiveCfg = Debug|x64
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Debug|x64.Build.0 = Debug|x64
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Debug|x86.ActiveCfg = Debug|Win32
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Debug|x86.Build.0 = Debug|Win32
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Release|x64.ActiveCfg = Release|x64
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Release|x64.Build.0 = Release|x64
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Release|x86.ActiveCfg = Release|Win32
+		{8508FF41-4E7A-4045-8848-291D6F1A5A96}.Release|x86.Build.0 = Release|Win32
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Debug|x64.ActiveCfg = Debug|x64
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Debug|x64.Build.0 = Debug|x64
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Debug|x86.Build.0 = Debug|Win32
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Release|x64.ActiveCfg = Release|x64
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Release|x64.Build.0 = Release|x64
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Release|x86.ActiveCfg = Release|Win32
+		{DA5C97BC-9E7D-4402-912E-33E2C278F91B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
