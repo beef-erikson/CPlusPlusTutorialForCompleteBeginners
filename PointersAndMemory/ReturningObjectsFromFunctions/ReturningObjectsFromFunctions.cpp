@@ -22,7 +22,7 @@ public:
 
 
 // creates an animal object and returns it - note that 'new' allocates memory on the heap rather than the stack
-Animal *createAnimal()
+Animal* createAnimal()
 {
 	Animal* pAnimal = new Animal();
 	pAnimal->setName("Bertie");
@@ -35,6 +35,10 @@ int main()
 	// note we still need to delete to deallocate memory
 	Animal* pFrog = createAnimal();
 	pFrog->speak();
+
+	Animal anotherPFrog = *pFrog;
+	anotherPFrog.speak();
+
 	delete pFrog;
 
 	return 0;
