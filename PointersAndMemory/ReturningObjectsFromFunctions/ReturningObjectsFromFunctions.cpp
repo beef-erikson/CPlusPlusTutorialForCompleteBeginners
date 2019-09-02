@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// animal class
 class Animal
 {
 private:
@@ -19,13 +20,22 @@ public:
 	void speak() const { cout << "My name is: " << name << endl; }
 };
 
+
+// creates an animal object and returns it - note that 'new' allocates memory on the heap rather than the stack
+Animal *createAnimal()
+{
+	Animal* pAnimal = new Animal();
+	pAnimal->setName("Bertie");
+	return pAnimal;
+}
+
+
 int main()
 {
-	// demonstration of new - ALWAYS use delete, otherwise memory leak
-	Animal* pCat1 = new Animal();
-	pCat1->setName("Freddy");
-	pCat1->speak();
-	delete pCat1;
+	// note we still need to delete to deallocate memory
+	Animal* pFrog = createAnimal();
+	pFrog->speak();
+	delete pFrog;
 
 	return 0;
 }

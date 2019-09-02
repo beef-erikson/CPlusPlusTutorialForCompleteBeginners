@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewOperator", "NewOperator\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReturningObjectsFromFunctions", "ReturningObjectsFromFunctions\ReturningObjectsFromFunctions.vcxproj", "{176F2DA0-93E2-4AEF-B251-4FED39876FF5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllocatingMemory", "AllocatingMemory\AllocatingMemory.vcxproj", "{D361C383-9FDC-4B84-9D0A-A47E522B14BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{176F2DA0-93E2-4AEF-B251-4FED39876FF5}.Release|x64.Build.0 = Release|x64
 		{176F2DA0-93E2-4AEF-B251-4FED39876FF5}.Release|x86.ActiveCfg = Release|Win32
 		{176F2DA0-93E2-4AEF-B251-4FED39876FF5}.Release|x86.Build.0 = Release|Win32
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Debug|x64.ActiveCfg = Debug|x64
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Debug|x64.Build.0 = Debug|x64
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Debug|x86.Build.0 = Debug|Win32
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Release|x64.ActiveCfg = Release|x64
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Release|x64.Build.0 = Release|x64
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Release|x86.ActiveCfg = Release|Win32
+		{D361C383-9FDC-4B84-9D0A-A47E522B14BC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
