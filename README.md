@@ -50,3 +50,4 @@
 [Const](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Const/Const.cpp)<br />
 [Copy Constructors](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/CopyConstructors/CopyConstructors.cpp)<br />
 [New Operator](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/NewOperator/NewOperator.cpp)<br />
+[Returning Objects From Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ReturningObjectsFromFunctions/ReturningObjectsFromFunctions.cpp)<br />
