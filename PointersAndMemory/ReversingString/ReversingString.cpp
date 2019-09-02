@@ -5,7 +5,7 @@ int main()
 {
 	char text[] = "Hello #100DaysOfCode!";
 	
-	// finds start and end points
+	// sets start and end points of array
 	int nChars = sizeof(text) - 1;
 	char* pStart = text;
 	char* pEnd = text + nChars - 1;
