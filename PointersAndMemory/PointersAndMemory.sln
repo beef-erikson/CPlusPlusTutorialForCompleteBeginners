@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharArrays", "CharArrays\Ch
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReversingString", "ReversingString\ReversingString.vcxproj", "{C37C6104-40F2-480B-A5EE-D4EF60C94802}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "References", "References\References.vcxproj", "{5403D728-DAE8-4230-A417-7F1AEF88FA72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{C37C6104-40F2-480B-A5EE-D4EF60C94802}.Release|x64.Build.0 = Release|x64
 		{C37C6104-40F2-480B-A5EE-D4EF60C94802}.Release|x86.ActiveCfg = Release|Win32
 		{C37C6104-40F2-480B-A5EE-D4EF60C94802}.Release|x86.Build.0 = Release|Win32
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Debug|x64.ActiveCfg = Debug|x64
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Debug|x64.Build.0 = Debug|x64
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Debug|x86.ActiveCfg = Debug|Win32
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Debug|x86.Build.0 = Debug|Win32
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Release|x64.ActiveCfg = Release|x64
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Release|x64.Build.0 = Release|x64
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Release|x86.ActiveCfg = Release|Win32
+		{5403D728-DAE8-4230-A417-7F1AEF88FA72}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
