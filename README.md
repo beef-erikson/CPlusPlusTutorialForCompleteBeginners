@@ -54,3 +54,6 @@
 [Allocating Memory](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/AllocatingMemory/AllocatingMemory.cpp)<br />
 [Arrays And Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ArraysAndFunctions/ArraysAndFunctions.cpp)<br />
 [Namespaces](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Namespaces/Namespaces.cpp)<br />
+
+## Inheritance
+[Inheritance](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/Inheritance/Inheritance.cpp)<br />
