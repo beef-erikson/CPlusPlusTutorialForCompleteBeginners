@@ -24,11 +24,11 @@
 [Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/MultidirectionalArrays/MultidirectionalArrays.cpp)<br />
 [Sizeof and Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOf/SizeOf.cpp)<br />
 [Sizeof Multidimensional Arrays](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/SizeOfMultidimensionalArrays/SizeOfMultidimensionalArrays.cpp)<br />
-[Switch](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Switch/Switch.cpp)<br />
+[Switch](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/BasicSyntax/Switch/Switch.cpp)
 
 ## Subroutines
 [Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Subroutines/Functions/Functions.cpp)<br />
-[Prototypes and Includes](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Subroutines/PrototypesAndIncludes/PrototypesAndIncludes.cpp)<br />
+[Prototypes and Includes](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Subroutines/PrototypesAndIncludes/PrototypesAndIncludes.cpp)
 
 ## Object Orientated Coding
 [Classes](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/Classes/Classes.cpp)<br />
@@ -37,7 +37,7 @@
 [Getters and Setters](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/GettersAndSetters/GettersAndSetters.cpp)<br />
 [String Streams](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/StringStreams/StringStreams.cpp)<br />
 [Overloading Constructors](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/OverloadingConstructors/OverloadingConstructors.cpp)<br />
-['this' Keyword and constructor initialization lists](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/This/This.cpp)<br />
+['this' Keyword and constructor initialization lists](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/This/This.cpp)
 
 ## Pointers and Memory
 [Pointers](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Pointers/Pointers.cpp)<br />
@@ -53,13 +53,13 @@
 [Returning Objects From Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ReturningObjectsFromFunctions/ReturningObjectsFromFunctions.cpp)<br />
 [Allocating Memory](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/AllocatingMemory/AllocatingMemory.cpp)<br />
 [Arrays And Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ArraysAndFunctions/ArraysAndFunctions.cpp)<br />
-[Namespaces](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Namespaces/Namespaces.cpp)<br />
+[Namespaces](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Namespaces/Namespaces.cpp)
 
 ## Inheritance
 [Inheritance](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/Inheritance/Inheritance.cpp)<br />
 [Encapsulation](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/Encapsulation/Encapsulation.cpp)<br />
-[Constructor Inheritance](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/ConstructorInheritance/ConstructorInheritance.cpp)<br />
+[Constructor Inheritance](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/ConstructorInheritance/ConstructorInheritance.cpp)
 
 ## Odds and Ends
 [Two's Complement](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/OddsAndEnds/TwosCompliment/TwosCompliment.cpp)<br />
-[Static Keyword](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/OddsAndEnds/Static/Static.cpp)<br />
+[Static Keyword](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/OddsAndEnds/Static/Static.cpp)
