@@ -50,6 +50,6 @@ int main()
 		pAnimal2->speak();
 	}
 	delete[] pAnimal2;
-
+	
 	return 0;
 }
