@@ -62,3 +62,4 @@
 
 ## Odds and Ends
 [Two's Complement](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/OddsAndEnds/TwosCompliment/TwosCompliment.cpp)<br />
+[Static Keyword](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/OddsAndEnds/Static/Static.cpp)<br />
