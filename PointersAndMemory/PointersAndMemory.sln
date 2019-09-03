@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllocatingMemory", "Allocat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArraysAndFunctions", "ArraysAndFunctions\ArraysAndFunctions.vcxproj", "{E5D7C62F-5152-470C-9C0B-524692B4F302}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Namespaces", "Namespaces\Namespaces.vcxproj", "{82226247-2A2C-4A66-B4C7-10326CD58D0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{E5D7C62F-5152-470C-9C0B-524692B4F302}.Release|x64.Build.0 = Release|x64
 		{E5D7C62F-5152-470C-9C0B-524692B4F302}.Release|x86.ActiveCfg = Release|Win32
 		{E5D7C62F-5152-470C-9C0B-524692B4F302}.Release|x86.Build.0 = Release|Win32
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Debug|x64.ActiveCfg = Debug|x64
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Debug|x64.Build.0 = Debug|x64
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Debug|x86.Build.0 = Debug|Win32
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Release|x64.ActiveCfg = Release|x64
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Release|x64.Build.0 = Release|x64
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Release|x86.ActiveCfg = Release|Win32
+		{82226247-2A2C-4A66-B4C7-10326CD58D0F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
