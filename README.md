@@ -58,3 +58,4 @@
 ## Inheritance
 [Inheritance](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/Inheritance/Inheritance.cpp)<br />
 [Encapsulation](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/Encapsulation/Encapsulation.cpp)<br />
+[Constructor Inheritance](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Inheritance/ConstructorInheritance/ConstructorInheritance.cpp)<br />
