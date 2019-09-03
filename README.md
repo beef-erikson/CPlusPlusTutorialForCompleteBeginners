@@ -52,4 +52,5 @@
 [New Operator](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/NewOperator/NewOperator.cpp)<br />
 [Returning Objects From Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ReturningObjectsFromFunctions/ReturningObjectsFromFunctions.cpp)<br />
 [Allocating Memory](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/AllocatingMemory/AllocatingMemory.cpp)<br />
-[ArraysAndFunctions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ArraysAndFunctions/ArraysAndFunctions.cpp)
+[Arrays And Functions](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/ArraysAndFunctions/ArraysAndFunctions.cpp)<br />
+[Namespaces](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Namespaces/Namespaces.cpp)<br />
