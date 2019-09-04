@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <SDL.h>
+#include <math.h>
 #include "Screen.h"
-
 using namespace BeefEriksonStudios;
 
 int main(int argc, char** argv)
@@ -13,17 +13,20 @@ int main(int argc, char** argv)
 	// main loop
 	while (true)
 	{
-		// draw particles
+		// loop between min and max of red, green and blue values (0 - 255)
+		int elapsed = SDL_GetTicks();
+		unsigned char red = (1 + sin(elapsed * 0.0001)) * 128;
+		unsigned char green = (1 + sin(elapsed * 0.0002)) * 128;
+		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;
+
+		// sets pixels based on RGB
 		for (int y = 0; y < Screen::SCREEN_HEIGHT; y++)
 		{
 			for (int x = 0; x < Screen::SCREEN_WIDTH; x++)
 			{
-				screen.setPixel(x, y, 0, 128, 255);
+				screen.setPixel(x, y, red, green, blue);
 			}
 		}
-
-		// one white pixel in center
-		screen.setPixel(512, 384, 255, 255, 255);
 
 		// draws screen
 		screen.update();
