@@ -37,7 +37,7 @@
 [Getters and Setters](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/GettersAndSetters/GettersAndSetters.cpp)<br />
 [String Streams](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/StringStreams/StringStreams.cpp)<br />
 [Overloading Constructors](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/OverloadingConstructors/OverloadingConstructors.cpp)<br />
-['this' Keyword and constructor initialization lists](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/This/This.cpp)
+['this' Keyword and Constructor Initialization Lists](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ObjectOrientatedCoding/This/This.cpp)
 
 ## Pointers and Memory
 [Pointers](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/PointersAndMemory/Pointers/Pointers.cpp)<br />
