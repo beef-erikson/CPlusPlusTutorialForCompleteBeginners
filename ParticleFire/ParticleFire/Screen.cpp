@@ -76,9 +76,15 @@ namespace BeefEriksonStudios
 		return true;
 	}
 
-	// sets pixel buffer to x/y value by the RGB values
+	// sets pixel buffer to x/y value by the RGB values, locking in screen size
 	void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue)
 	{
+		// ensures pixel is constrained to screen
+		if (x < 0 || x >= SCREEN_WIDTH || y < 0 || y >= SCREEN_HEIGHT)
+		{
+			return;
+		}
+
 		Uint32 color = 0;
 		Uint8 alpha = 0xFF;
 

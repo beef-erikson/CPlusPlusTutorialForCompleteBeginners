@@ -130,10 +130,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Particle.cpp" />
     <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Swarm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Particle.h" />
     <ClInclude Include="Screen.h" />
+    <ClInclude Include="Swarm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
