@@ -58,18 +58,6 @@ namespace BeefEriksonStudios
 		// writes pixel info (memset sets all RGBA values, 0 being black)
 		SDL_memset(m_buffer, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
 
-		// writes pixel info through loop
-		for (int i = 0; i < SCREEN_WIDTH * SCREEN_HEIGHT; i++)
-		{
-			m_buffer[i] = 0x0080FFFF;
-		}
-
-		// updates screen
-		SDL_UpdateTexture(m_texture, NULL, m_buffer, SCREEN_WIDTH * sizeof(Uint32));
-		SDL_RenderClear(m_renderer);
-		SDL_RenderCopy(m_renderer, m_texture, NULL, NULL);
-		SDL_RenderPresent(m_renderer);
-
 		return true;
 	}
 
@@ -88,6 +76,31 @@ namespace BeefEriksonStudios
 		return true;
 	}
 
+	// sets pixel buffer to x/y value by the RGB values
+	void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue)
+	{
+		Uint32 color = 0;
+		Uint8 alpha = 0xFF;
+
+		color += red;
+		color <<= 8;
+		color += green;
+		color <<= 8;
+		color += blue;
+		color <<= 8;
+		color += alpha;
+
+		m_buffer[(y * SCREEN_WIDTH) + x] = color;
+	}
+
+	// updates screen
+	void Screen::update()
+	{
+		SDL_UpdateTexture(m_texture, NULL, m_buffer, SCREEN_WIDTH * sizeof(Uint32));
+		SDL_RenderClear(m_renderer);
+		SDL_RenderCopy(m_renderer, m_texture, NULL, NULL);
+		SDL_RenderPresent(m_renderer);
+	}
 
 	// kills program and deallocates everything
 	void Screen::close()
