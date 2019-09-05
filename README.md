@@ -67,4 +67,5 @@
 ## Particle Fire
 [SDL Test Window](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/tree/master/ParticleFire/SDLTest)<br />
 [Bit Shifting and Colors](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ParticleFire/BitShiftingAndColors/BitShiftingAndColors.cpp)<br />
-[Particle Fire Program](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/tree/master/ParticleFire/ParticleFire)<br />
+[Bitwise 'And'](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/ParticleFire/BitwiseAnd/BitwiseAnd.cpp)<br />
+[Particle Fire Program](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/tree/master/ParticleFire/ParticleFire)
