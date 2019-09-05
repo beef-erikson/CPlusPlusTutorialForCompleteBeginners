@@ -11,6 +11,9 @@ using namespace BeefEriksonStudios;
 
 int main(int argc, char** argv)
 {
+	// range support
+	const int HALF_WIDTH = Screen::SCREEN_WIDTH / 2;
+
 	// random seed
 	srand(time(NULL));
 
@@ -38,12 +41,13 @@ int main(int argc, char** argv)
 		// draw particles
 		const Particle* const pParticles = swarm.getParticles();
 
+		// sets x and y range to be circular and centered in middle
 		for (int i = 0; i < Swarm::NPARTICLES; i++)
 		{
 			Particle particle = pParticles[i];
 
-			int x = (particle.m_x + 1) * (Screen::SCREEN_WIDTH / 2);
-			int y = (particle.m_y + 1) * (Screen::SCREEN_HEIGHT / 2);
+			int x = (particle.m_x + 1) * HALF_WIDTH;
+			int y = particle.m_y * HALF_WIDTH + Screen::SCREEN_HEIGHT / 2;
 
 			screen.setPixel(x, y, red, green, blue);
 		}

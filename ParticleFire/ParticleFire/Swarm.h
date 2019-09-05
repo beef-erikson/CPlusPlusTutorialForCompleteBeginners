@@ -8,7 +8,7 @@ namespace BeefEriksonStudios
 	{
 	public:
 		// number of particles to display
-		const static int NPARTICLES = 2000;
+		const static int NPARTICLES = 5000;
 		const Particle* const getParticles() { return m_pParticles; };
 
 	private:
