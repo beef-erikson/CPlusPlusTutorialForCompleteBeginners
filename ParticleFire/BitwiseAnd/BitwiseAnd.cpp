@@ -20,5 +20,7 @@ int main()
 
 	cout << hex << (int)red2 << " " << (int)green2 << " " << (int)blue2 << endl;
 
+	// for the record, bitwise or: |
+
 	return 0;
 }
