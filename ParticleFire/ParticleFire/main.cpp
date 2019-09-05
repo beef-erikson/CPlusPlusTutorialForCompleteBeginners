@@ -43,8 +43,6 @@ int main(int argc, char** argv)
 			screen.setPixel(x, y, red, green, blue);
 		}
 
-		
-
 		// draws screen
 		screen.update();
 
