@@ -24,8 +24,13 @@ int main(int argc, char** argv)
 	// main loop
 	while (true)
 	{
-		// loop between min and max of red, green and blue values (0 - 255)
 		int elapsed = SDL_GetTicks();
+
+		// clears screen and starts swarm
+		screen.clear();
+		swarm.update();
+		
+		// loop between min and max of red, green and blue values (0 - 255)
 		unsigned char red = (1 + sin(elapsed * 0.0001)) * 128;
 		unsigned char green = (1 + sin(elapsed * 0.0002)) * 128;
 		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;

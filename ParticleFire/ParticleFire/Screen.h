@@ -23,6 +23,8 @@ namespace BeefEriksonStudios
 	public:
 		bool init();
 		bool processEvents();
+
+		void clear();
 		void setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue);
 		void update();
 		void close();

@@ -8,5 +8,9 @@ namespace BeefEriksonStudios
 
 		double m_x;
 		double m_y;
+		double m_xSpeed;
+		double m_ySpeed;
+
+		void update();
 	};
 }

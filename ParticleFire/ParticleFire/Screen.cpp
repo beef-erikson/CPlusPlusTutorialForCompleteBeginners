@@ -76,6 +76,12 @@ namespace BeefEriksonStudios
 		return true;
 	}
 
+	// clears the screen
+	void Screen::clear()
+	{
+		SDL_memset(m_buffer, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+	}
+
 	// sets pixel buffer to x/y value by the RGB values, locking in screen size
 	void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue)
 	{
@@ -99,7 +105,7 @@ namespace BeefEriksonStudios
 		m_buffer[(y * SCREEN_WIDTH) + x] = color;
 	}
 
-	// updates screen
+	// clears and updates screen
 	void Screen::update()
 	{
 		SDL_UpdateTexture(m_texture, NULL, m_buffer, SCREEN_WIDTH * sizeof(Uint32));

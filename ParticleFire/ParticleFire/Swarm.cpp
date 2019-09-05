@@ -11,4 +11,13 @@ namespace BeefEriksonStudios
 	{
 		delete[] m_pParticles;
 	}
+
+	// moves particles
+	void Swarm::update()
+	{
+		for (int i = 0; i < Swarm::NPARTICLES; i++)
+		{
+			m_pParticles[i].update();
+		}
+	}
 }
