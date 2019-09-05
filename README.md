@@ -1,6 +1,8 @@
 # C++ Tutorial For Complete Beginners
 [Udemy C++ tutorial course](https://www.udemy.com/course/free-learn-c-tutorial-beginners/)
 
+![C++ Certification](https://udemy-certificate.s3.amazonaws.com/image/UC-QPDSCA2W.jpg)
+
 ## Getting started
 [Hello World](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/GettingStarted/HelloWorld/HelloWorld.cpp)<br />
 [Outputting Text](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/GettingStarted/OutputtingText/OutputtingText.cpp)
