@@ -72,3 +72,4 @@
 
 ## Bonus Section
 [Polymorphism](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/blob/master/Bonus/Polymorphism/Polymorphism.cpp)<br />
+[Creating Static Libraries](https://github.com/beef-erikson/CPlusPlusTutorialForCompleteBeginners/tree/master/Bonus/StaticLibrary)
