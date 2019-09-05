@@ -28,7 +28,7 @@ public:
 
 int main()
 {
-	Cat* pCat = new Cat;
+	Animal* pCat = new Cat;
 	pCat->speak();
 	delete pCat;
 
