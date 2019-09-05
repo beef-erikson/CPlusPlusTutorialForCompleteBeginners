@@ -8,7 +8,7 @@ namespace BeefEriksonStudios
 	Particle::Particle() : m_x(0), m_y(0)
 	{
 		m_direction = (2 * M_PI * rand()) / RAND_MAX;
-		m_speed = (0.0005 * rand()) / RAND_MAX;
+		m_speed = (0.00075 * rand()) / RAND_MAX;
 	}
 
 	// moves particles within window randomly using delta time

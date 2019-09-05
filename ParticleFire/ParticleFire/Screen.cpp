@@ -4,7 +4,7 @@ namespace BeefEriksonStudios
 {
 	// constructor
 	Screen::Screen() :
-		m_window(NULL), m_renderer(NULL), m_texture(NULL), m_buffer(NULL)
+		m_window(NULL), m_renderer(NULL), m_texture(NULL), m_buffer1(NULL), m_buffer2(NULL)
 	{
 	}
 
@@ -53,10 +53,12 @@ namespace BeefEriksonStudios
 		}
 
 		// sets buffer for pixels on screen
-		m_buffer = new Uint32[SCREEN_WIDTH * SCREEN_HEIGHT];
+		m_buffer1 = new Uint32[SCREEN_WIDTH * SCREEN_HEIGHT];
+		m_buffer2 = new Uint32[SCREEN_WIDTH * SCREEN_HEIGHT];
 
 		// writes pixel info (memset sets all RGBA values, 0 being black)
-		SDL_memset(m_buffer, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+		SDL_memset(m_buffer1, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+		SDL_memset(m_buffer2, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
 
 		return true;
 	}
@@ -76,10 +78,57 @@ namespace BeefEriksonStudios
 		return true;
 	}
 
-	// clears the screen
-	void Screen::clear()
+	// blurs screen using box blurring
+	void Screen::boxBlur()
 	{
-		SDL_memset(m_buffer, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+		// swaps buffers so pixel info is in m_buffer2, draws m_buffer1
+		Uint32* temp = m_buffer1;
+		m_buffer1 = m_buffer2;
+		m_buffer2 = temp;
+
+		// creates blur effect and move it to buffer1, creating continuous blurring with each iteration
+		for (int y = 0; y < SCREEN_HEIGHT; y++)
+		{
+			for (int x = 0; x < SCREEN_WIDTH; x++)
+			{
+				// values for storing color in hex
+				int redTotal = 0;
+				int greenTotal = 0;
+				int blueTotal = 0;
+
+				for (int row = -1; row <= 1; row++)
+				{
+					for (int col = -1; col <= 1; col++)
+					{
+						int currentX = x + col;
+						int currentY = y + row;
+
+						// makes sure pixel is in screen and grabs color value
+						if (currentX >= 0 && currentX < SCREEN_WIDTH && currentY >= 0 && currentY < SCREEN_HEIGHT)
+						{
+							// x/y coordinates into index
+							Uint32 color = m_buffer2[currentY * SCREEN_WIDTH + currentX];
+
+							// grabs each color value using bit shifting
+							Uint8 red = color >> 24;
+							Uint8 green = color >> 16;
+							Uint8 blue = color >> 8;
+
+							redTotal += red;
+							greenTotal += green;
+							blueTotal += blue;
+						}
+					}
+				}
+
+				// sets color based on each surrounding pixel
+				Uint8 red = redTotal / 9;
+				Uint8 green = greenTotal / 9;
+				Uint8 blue = blueTotal / 9;
+
+				setPixel(x, y, red, green, blue);
+			}
+		}
 	}
 
 	// sets pixel buffer to x/y value by the RGB values, locking in screen size
@@ -102,13 +151,13 @@ namespace BeefEriksonStudios
 		color <<= 8;
 		color += alpha;
 
-		m_buffer[(y * SCREEN_WIDTH) + x] = color;
+		m_buffer1[(y * SCREEN_WIDTH) + x] = color;
 	}
 
 	// clears and updates screen
 	void Screen::update()
 	{
-		SDL_UpdateTexture(m_texture, NULL, m_buffer, SCREEN_WIDTH * sizeof(Uint32));
+		SDL_UpdateTexture(m_texture, NULL, m_buffer1, SCREEN_WIDTH * sizeof(Uint32));
 		SDL_RenderClear(m_renderer);
 		SDL_RenderCopy(m_renderer, m_texture, NULL, NULL);
 		SDL_RenderPresent(m_renderer);
@@ -117,7 +166,8 @@ namespace BeefEriksonStudios
 	// kills program and deallocates everything
 	void Screen::close()
 	{
-		delete[] m_buffer;
+		delete[] m_buffer1;
+		delete[] m_buffer2;
 		SDL_DestroyRenderer(m_renderer);
 		SDL_DestroyTexture(m_texture);
 		SDL_DestroyWindow(m_window);

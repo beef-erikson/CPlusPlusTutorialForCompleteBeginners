@@ -29,8 +29,7 @@ int main(int argc, char** argv)
 	{
 		int elapsed = SDL_GetTicks();
 
-		// clears screen and starts swarm
-		screen.clear();
+		// starts swarm
 		swarm.update(elapsed);
 		
 		// loop between min and max of red, green and blue values (0 - 255)
@@ -51,6 +50,9 @@ int main(int argc, char** argv)
 
 			screen.setPixel(x, y, red, green, blue);
 		}
+
+		// blurs using box blur
+		screen.boxBlur();
 
 		// draws screen
 		screen.update();
