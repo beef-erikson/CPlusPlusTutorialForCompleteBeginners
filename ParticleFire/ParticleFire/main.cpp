@@ -14,6 +14,11 @@ int main(int argc, char** argv)
 	// range support
 	const int HALF_WIDTH = Screen::SCREEN_WIDTH / 2;
 
+	// color shift speeds
+	const double RED_SHIFT = 0.0003;
+	const double GREEN_SHIFT = 0.0003;
+	const double BLUE_SHIFT = 0.0001;
+
 	// random seed
 	srand(time(NULL));
 
@@ -33,9 +38,9 @@ int main(int argc, char** argv)
 		swarm.update(elapsed);
 		
 		// loop between min and max of red, green and blue values (0 - 255)
-		unsigned char red = (1 + sin(elapsed * 0.0001)) * 128;
-		unsigned char green = (1 + sin(elapsed * 0.0002)) * 128;
-		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;
+		unsigned char red = (1 + sin(elapsed * RED_SHIFT)) * 128;
+		unsigned char green = (1 + sin(elapsed * GREEN_SHIFT)) * 128;
+		unsigned char blue = (1 + sin(elapsed * BLUE_SHIFT)) * 128;
 
 		// draw particles
 		const Particle* const pParticles = swarm.getParticles();
