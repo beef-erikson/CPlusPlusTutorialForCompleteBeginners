@@ -11,6 +11,6 @@ namespace BeefEriksonStudios
 		double m_speed;
 		double m_direction;
 
-		void update();
+		void update(int interval);
 	};
 }

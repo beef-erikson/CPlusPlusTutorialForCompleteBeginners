@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 	Screen screen;
 	screen.init();
 
-	// creates swarm of particles
+	// create swarm of particles
 	Swarm swarm;
 
 	// main loop
@@ -31,7 +31,7 @@ int main(int argc, char** argv)
 
 		// clears screen and starts swarm
 		screen.clear();
-		swarm.update();
+		swarm.update(elapsed);
 		
 		// loop between min and max of red, green and blue values (0 - 255)
 		unsigned char red = (1 + sin(elapsed * 0.0001)) * 128;

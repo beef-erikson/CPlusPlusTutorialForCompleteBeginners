@@ -13,12 +13,13 @@ namespace BeefEriksonStudios
 
 	private:
 		Particle* m_pParticles;
+		int lastTime;
 
 	public:
 		Swarm();
 		~Swarm();
 
 	public:
-		void update();
+		void update(int elapsed);
 	};
 }
